@@ -1,2 +1,2 @@
-web: gunicorn mydjangoproject.wsgi --log-file -
-release: python manage.py migrate
+# Modify this Procfile to fit your needs
+web: gunicorn server:app
