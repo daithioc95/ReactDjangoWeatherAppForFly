@@ -30,7 +30,7 @@ class LocationCard extends React.Component {
 		}
 		const API_ENDPOINT =
 			process.env.REACT_APP_API_ENDPOINT ||
-			"https://react-django-weather-app.herokuapp.com/";
+			"https://web-production-2932.up.railway.app/";
 		this.interval = setTimeout(() => {
 			let data;
 			// API call which passes location and gets weather data
@@ -67,7 +67,7 @@ class LocationCard extends React.Component {
 		if (localStorage.getItem("user")) {
 			const API_ENDPOINT =
 				process.env.REACT_APP_API_ENDPOINT ||
-				"https://react-django-weather-app.herokuapp.com/";
+				"https://web-production-2932.up.railway.app/";
 			this.interval = setTimeout(() => {
 				// API call which passes location and gets weather data
 				axios

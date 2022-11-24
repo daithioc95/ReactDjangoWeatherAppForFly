@@ -10,7 +10,7 @@ const Favourites = () => {
 	const getData = async () => {
 		const API_ENDPOINT =
 			process.env.REACT_APP_API_ENDPOINT ||
-			"https://react-django-weather-app.herokuapp.com/";
+			"https://web-production-2932.up.railway.app/";
 		const { data } = await axios.get(`${API_ENDPOINT}getuserfavs/`, {
 			params: {
 				user: localStorage.getItem("user"),

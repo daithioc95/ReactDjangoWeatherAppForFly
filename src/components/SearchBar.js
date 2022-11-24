@@ -62,7 +62,7 @@ class SearchBar extends React.Component {
 
 		const API_ENDPOINT =
 			process.env.REACT_APP_API_ENDPOINT ||
-			"https://react-django-weather-app.herokuapp.com/";
+			"https://web-production-2932.up.railway.app/";
 		let data;
 		// API call which passes location and gets weather data
 		axios
